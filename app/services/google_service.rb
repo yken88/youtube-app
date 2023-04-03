@@ -6,7 +6,7 @@ class GoogleService
 
   def find_videos(keyword, after: 1.months.ago, before: Time.now)
     service = Google::Apis::YoutubeV3::YouTubeService.new
-    service.key = "AIzaSyC2Y2Ktg67wO1Z4ZfO_ZxIhesV06fn95Hs"
+    service.key = ""
   
     next_page_token = nil
     begin
