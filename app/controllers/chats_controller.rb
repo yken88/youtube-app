@@ -1,8 +1,9 @@
 class ChatsController < ApplicationController
     def index
-        video_id = "RSeau4TkGq8"
+        # TODO:リクエストから取れるようにする
+        video_id = "jfKfPfyJRdk"
         
         client = GoogleService.new
-        @video_details = client.find_videos("ファイル")
+        @chat_id = client.get_live_details(video_id)
     end
 end
