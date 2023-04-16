@@ -1,3 +1,8 @@
-.header-section
-    p
-    | header
+header
+    .header-title
+        h1 Youtube app
+    nav.header-nav
+        .header-item
+            =link_to("Get Chats", "/chats", class: "header-link")
+        .header-item
+            =link_to("folders", "/folders", class: "header-link")

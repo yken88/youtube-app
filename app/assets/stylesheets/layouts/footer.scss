@@ -1,0 +1,27 @@
+footer {
+    background-color: #24292f;
+
+    .footer-title {
+        margin-left: 10px;
+        color: #ffffff;
+    }
+
+    .footer-nav {
+        display: flex;
+        justify-content: space-around;
+        height: 4rem;
+        align-items: center;
+        margin-right: 40px;
+        margin-top: 15px;
+
+        .footer-item {
+            margin-right: 15px;
+        }
+    }
+
+    .footer-link {
+        color: #ffffff;
+        text-decoration: none;
+    }
+    
+}

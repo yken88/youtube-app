@@ -47,7 +47,9 @@ gem 'slim-rails'
 gem 'html2slim'
 
 # Use Sass to process CSS
-# gem "sassc-rails"
+gem "sassc-rails"
+
+gem "slim_lint"
 
 # Google Clinet
 gem 'google-api-ruby-client'
