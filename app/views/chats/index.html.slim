@@ -1,3 +1,9 @@
-- for message in @live_chat_messages
-    p
-    | #{message.snippet.display_message}
+.form-wrapper
+    form method="POST" action="/submit"
+        label for="video_id" INPUT LIVE STREAMING VIDEO ID.
+        input type="text" name="video_id"
+        
+        input type="submit" value="Submit"
+.chat-section
+    - for message in @live_chat_messages
+        p #{message.snippet.display_message}
