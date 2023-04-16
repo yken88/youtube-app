@@ -1,0 +1,29 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #24292f;
+
+    .header-title {
+        margin-left: 10px;
+        color: #ffffff;
+    }
+
+    .header-nav {
+        display: flex;
+        justify-content: center;
+        height: 4rem;
+        align-items: center;
+        margin-right: 40px;
+        margin-top: 15px;
+
+        .header-item {
+            margin-right: 15px;
+        }
+    }
+
+    .header-link {
+        color: #ffffff;
+        text-decoration: none;
+    }
+    
+}
